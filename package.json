@@ -1,0 +1,26 @@
+{
+  "name": "hermetic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cypress install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayathriPMA/hermetic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gayathriPMA/hermetic/issues"
+  },
+  "homepage": "https://github.com/gayathriPMA/hermetic#readme",
+  "dependencies": {
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
